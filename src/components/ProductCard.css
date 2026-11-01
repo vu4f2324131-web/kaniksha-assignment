@@ -1,0 +1,242 @@
+.product-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  position: relative;
+}
+
+.product-card:hover {
+  border-color: var(--neutral-400);
+  box-shadow: var(--shadow-sm);
+}
+
+.product-image-container {
+  position: relative;
+  width: 100%;
+  padding-top: 85%; /* 4:3.4 ratio */
+  background-color: var(--neutral-100);
+  overflow: hidden;
+}
+
+.image-click-target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.product-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease, opacity 0.2s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.03);
+  opacity: 0.96;
+}
+
+.product-image-fallback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  color: var(--neutral-400);
+  font-size: 0.8rem;
+}
+
+.stock-tag {
+  position: absolute;
+  top: 0.65rem;
+  left: 0.65rem;
+  font-size: 0.675rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  z-index: 2;
+}
+
+.stock-tag.out-of-stock {
+  background-color: var(--brand-black);
+  color: #ffffff;
+}
+
+.stock-tag.low-stock {
+  background-color: #fffbeb;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+/* Wishlist Button */
+.wishlist-btn {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  z-index: 2;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--radius-full);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--neutral-600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.wishlist-btn:hover {
+  background-color: #ffffff;
+  color: var(--brand-black);
+  border-color: var(--neutral-400);
+}
+
+.wishlist-btn.active {
+  background-color: #ffffff;
+  color: var(--danger-500);
+  border-color: #fca5a5;
+}
+
+.heart-filled {
+  fill: var(--danger-500);
+}
+
+.product-info {
+  padding: 1rem 1.15rem 1.15rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-category-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.product-category {
+  font-size: 0.725rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  color: var(--neutral-500);
+}
+
+.product-rating-box {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.rating-number {
+  font-size: 0.725rem;
+  color: var(--neutral-500);
+  font-weight: 500;
+}
+
+.product-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+  color: var(--brand-black);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 2.6rem;
+}
+
+.product-title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.product-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-price {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--brand-black);
+  letter-spacing: -0.01em;
+}
+
+.free-shipping-label {
+  font-size: 0.725rem;
+  color: var(--success-600);
+  font-weight: 500;
+}
+
+.product-footer-actions {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.add-bag-btn {
+  width: 100%;
+  font-weight: 600;
+}
+
+/* In-Cart Stepper */
+.in-cart-stepper {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--neutral-100);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xs);
+  padding: 0.2rem 0.35rem;
+}
+
+.stepper-btn {
+  width: 1.75rem;
+  height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brand-black);
+  border-radius: var(--radius-xs);
+  padding: 0;
+}
+
+.stepper-btn:hover:not(:disabled) {
+  background-color: #ffffff;
+}
+
+.stepper-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.stepper-count {
+  font-size: 0.775rem;
+  font-weight: 600;
+  color: var(--brand-black);
+}

@@ -1,0 +1,33 @@
+.rating-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.stars-group {
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.star-icon {
+  color: var(--neutral-300);
+  transition: color var(--transition-fast);
+}
+
+.star-icon.filled {
+  color: var(--warning-500);
+  fill: var(--warning-500);
+}
+
+.star-icon.half {
+  color: var(--warning-500);
+  fill: var(--warning-500);
+  opacity: 0.7;
+}
+
+.rating-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--neutral-700);
+}

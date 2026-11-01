@@ -1,0 +1,79 @@
+.quantity-selector {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xs);
+  background-color: #ffffff;
+  overflow: hidden;
+  user-select: none;
+}
+
+.quantity-selector.small {
+  height: 30px;
+}
+
+.quantity-selector.medium {
+  height: 36px;
+}
+
+.quantity-selector.large {
+  height: 42px;
+}
+
+.qty-btn {
+  height: 100%;
+  padding: 0 0.6rem;
+  background-color: transparent;
+  color: var(--neutral-700);
+  transition: background-color var(--transition-fast);
+}
+
+.qty-btn:hover:not(:disabled) {
+  background-color: var(--neutral-100);
+  color: var(--brand-black);
+}
+
+.qty-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.qty-value {
+  padding: 0 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--brand-black);
+  min-width: 2rem;
+  text-align: center;
+}
+
+.qty-input {
+  width: 2.5rem;
+  height: 100%;
+  border: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--brand-black);
+  background: transparent;
+}
+
+.qty-input:focus {
+  outline: none;
+}
+
+/* Remove arrows from number input */
+.qty-input::-webkit-outer-spin-button,
+.qty-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.qty-input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity-selector.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

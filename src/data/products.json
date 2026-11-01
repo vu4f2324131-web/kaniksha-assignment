@@ -1,0 +1,222 @@
+[
+  {
+    "id": "prod-101",
+    "name": "Wireless Noise-Canceling Headphones",
+    "description": "Immerse yourself in high-fidelity audio with active noise cancellation, 30-hour battery life, and ultra-soft memory foam ear cushions for all-day comfort.",
+    "price": 8999,
+    "category": "Electronics",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
+    "stock": 15
+  },
+  {
+    "id": "prod-102",
+    "name": "Smartwatch Pro Series 5",
+    "description": "Track your fitness, heart rate, sleep quality, and GPS routes with an AMOLED Retina display, 50m water resistance, and up to 7 days battery power.",
+    "price": 12499,
+    "category": "Electronics",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+    "stock": 10
+  },
+  {
+    "id": "prod-103",
+    "name": "Ultra-Slim Bluetooth Keyboard",
+    "description": "Sleek aluminum wireless mechanical keyboard featuring silent responsive keys, multi-device Bluetooth pairing, and long-lasting rechargeable battery.",
+    "price": 3499,
+    "category": "Electronics",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
+    "stock": 25
+  },
+  {
+    "id": "prod-104",
+    "name": "Portable HD Mini Projector",
+    "description": "Transform any room into a cinematic home theater. Supports 1080p resolution, built-in dual speakers, HDMI, USB, and wireless phone screen mirroring.",
+    "price": 15999,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop&q=80",
+    "stock": 8
+  },
+  {
+    "id": "prod-105",
+    "name": "True Wireless Noise-Isolating Earbuds",
+    "description": "Compact TWS earbuds featuring crystal-clear calls, dynamic deep bass response, IPX7 water resistance, and a 24-hour total playback USB-C charging case.",
+    "price": 4999,
+    "category": "Electronics",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80",
+    "stock": 18
+  },
+  {
+    "id": "prod-106",
+    "name": "Classic Vintage Denim Jacket",
+    "description": "Timeless heavy-duty denim jacket crafted from 100% organic cotton. Features classic button closures, adjustable waist tabs, and multi-functional chest pockets.",
+    "price": 3299,
+    "category": "Fashion",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&auto=format&fit=crop&q=80",
+    "stock": 20
+  },
+  {
+    "id": "prod-107",
+    "name": "Premium Cotton Crew Neck T-Shirt",
+    "description": "Ultra-soft combed Supima cotton t-shirt with a modern tailored fit, durable stitching, and breathable lightweight fabric ideal for layering or daily wear.",
+    "price": 1299,
+    "category": "Fashion",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80",
+    "stock": 35
+  },
+  {
+    "id": "prod-108",
+    "name": "Minimalist White Leather Sneakers",
+    "description": "Clean and understated design with genuine full-grain leather upper, cushioned memory foam insoles, and durable non-slip rubber outsoles.",
+    "price": 4499,
+    "category": "Fashion",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=80",
+    "stock": 12
+  },
+  {
+    "id": "prod-109",
+    "name": "Slim Fit Stretch Chino Trousers",
+    "description": "Versatile smart-casual trousers tailored from premium stretch-twill cotton. Engineered for flex freedom and clean lines from office to weekend.",
+    "price": 2799,
+    "category": "Fashion",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&auto=format&fit=crop&q=80",
+    "stock": 22
+  },
+  {
+    "id": "prod-110",
+    "name": "Oversized Soft Knit Cardigan",
+    "description": "Cozy open-front sweater cardigan spun from soft wool-blend yarn with ribbed cuffs, drop shoulders, and spacious front welt pockets.",
+    "price": 3899,
+    "category": "Fashion",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&auto=format&fit=crop&q=80",
+    "stock": 14
+  },
+  {
+    "id": "prod-111",
+    "name": "Ergonomic Mesh Office Chair",
+    "description": "High-back ergonomic task chair with breathable mesh support, adjustable lumbar support, 3D armrests, and dynamic tilt-lock mechanism for maximum posture support.",
+    "price": 14999,
+    "category": "Home & Living",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1589384267710-7a170981ca78?w=600&auto=format&fit=crop&q=80",
+    "stock": 7
+  },
+  {
+    "id": "prod-112",
+    "name": "Ceramic Nordic Coffee Mug Set (4-Pack)",
+    "description": "Handcrafted matte ceramic coffee mugs in warm neutral earth tones. Holds 350ml, dishwasher and microwave safe with comfortable ergonomic handles.",
+    "price": 1899,
+    "category": "Home & Living",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop&q=80",
+    "stock": 30
+  },
+  {
+    "id": "prod-113",
+    "name": "Smart Ambient LED Desk Lamp",
+    "description": "Touch-controlled architectural desk lamp with dimmable brightness levels, 5 color temperature modes, built-in wireless Qi phone charger, and auto timer.",
+    "price": 2999,
+    "category": "Home & Living",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&auto=format&fit=crop&q=80",
+    "stock": 16
+  },
+  {
+    "id": "prod-114",
+    "name": "Hand-Poured Soy Wax Scented Candle",
+    "description": "Aromatic natural soy candle infused with French lavender, sandalwood, and amber essential oils. Provides up to 45 hours of clean, soothing burn time.",
+    "price": 999,
+    "category": "Home & Living",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&auto=format&fit=crop&q=80",
+    "stock": 40
+  },
+  {
+    "id": "prod-115",
+    "name": "Vintage Grain Leather Messenger Bag",
+    "description": "Handcrafted full-grain leather shoulder bag featuring a padded laptop compartment (up to 15.6\"), magnetic buckle closures, and heavy-duty brass hardware.",
+    "price": 5999,
+    "category": "Accessories",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
+    "stock": 9
+  },
+  {
+    "id": "prod-116",
+    "name": "Polarized Classic Aviator Sunglasses",
+    "description": "Lightweight stainless steel wireframe sunglasses with UV400 polarized anti-glare lenses, scratch-resistant coating, and soft silicone nose pads.",
+    "price": 2499,
+    "category": "Accessories",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&auto=format&fit=crop&q=80",
+    "stock": 25
+  },
+  {
+    "id": "prod-117",
+    "name": "Water-Resistant Commuter Backpack",
+    "description": "Modern expandable travel backpack with anti-theft hidden pockets, integrated USB charging port, 17-inch laptop sleeve, and ergonomic padded straps.",
+    "price": 3699,
+    "category": "Accessories",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
+    "stock": 19
+  },
+  {
+    "id": "prod-118",
+    "name": "Vacuum Insulated Stainless Steel Bottle",
+    "description": "Double-wall vacuum insulated 1-liter thermal flask keeping beverages cold for 24 hours or hot for 12 hours. Sweat-proof powder coated finish.",
+    "price": 1499,
+    "category": "Accessories",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&auto=format&fit=crop&q=80",
+    "stock": 28
+  },
+  {
+    "id": "prod-119",
+    "name": "Hydrating Hyaluronic Acid Face Serum",
+    "description": "Intensive hydration booster serum formulated with 2% pure Hyaluronic Acid, Vitamin B5, and botanical extracts for plumner, smooth, radiant skin.",
+    "price": 1599,
+    "category": "Beauty",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop&q=80",
+    "stock": 32
+  },
+  {
+    "id": "prod-120",
+    "name": "Organic Botanical Gentle Facial Cleanser",
+    "description": "pH-balanced sulfate-free gel cleanser infused with green tea, chamomile, and aloe vera to thoroughly remove impurities while maintaining skin moisture.",
+    "price": 1199,
+    "category": "Beauty",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop&q=80",
+    "stock": 24
+  },
+  {
+    "id": "prod-121",
+    "name": "Nourishing Argan Oil Hair Mask",
+    "description": "Deep conditioning treatment with cold-pressed Moroccan Argan Oil and Keratin proteins to repair split ends and restore silky shine to damaged hair.",
+    "price": 1399,
+    "category": "Beauty",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=600&auto=format&fit=crop&q=80",
+    "stock": 17
+  },
+  {
+    "id": "prod-122",
+    "name": "SPF 50+ Broad Spectrum Sunscreen",
+    "description": "Lightweight oil-free facial sunscreen offering invisible PA++++ UVA/UVB protection without white cast, greasy residue, or clogged pores.",
+    "price": 899,
+    "category": "Beauty",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&auto=format&fit=crop&q=80",
+    "stock": 40
+  }
+]

@@ -1,0 +1,44 @@
+.category-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.1rem 0;
+  scrollbar-width: thin;
+}
+
+.category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.825rem;
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  background-color: transparent;
+  color: var(--neutral-600);
+  border: 1px solid var(--border-color);
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+}
+
+.category-count {
+  font-size: 0.75rem;
+  color: var(--neutral-400);
+}
+
+.category-pill:hover {
+  border-color: var(--neutral-400);
+  color: var(--brand-black);
+  background-color: var(--neutral-50);
+}
+
+.category-pill.active {
+  background-color: var(--brand-black);
+  color: #ffffff;
+  border-color: var(--brand-black);
+}
+
+.category-pill.active .category-count {
+  color: var(--neutral-300);
+}
